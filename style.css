@@ -1,0 +1,23 @@
+
+.cabecalho{
+    background-color: #141E37;
+    display: block; 
+    
+}
+
+.cabecalho-titulo1{
+    color: white;
+}
+
+.cabecalho-lista{
+    color: white;
+    display: flex;
+     
+    
+}
+.cabecalho-titulo2{
+    color: black;
+    display: block;
+    padding: 10px 50px 30px 10px;
+    
+}
