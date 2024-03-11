@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mooli';
 }
+
 /* secao cabecalho*/
 .cabecalho {
     background-color: #3B0050;
@@ -22,7 +26,7 @@ body {
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
+    font-size: 30px;
 }
 /* secao sobre nos*/
 .sobre_nos{
@@ -31,22 +35,21 @@ body {
     display: flex;
     justify-content: center;
     padding: 50px;
-    
 }
 
+.sobre_nos-div-conteudo{
+    width: 650px;
+}
 .sobre_nos-titulo{
     padding: 45px 0;
     text-align: center;
+    font-size: 45px;
 }
 
-.sobre_nos-texto-um{
-    padding: 5px;
-    font-size: 20px;
+.sobre_nos-paragrafo{
+    font-size: 25px;
 }
-.sobre_nos-texto-dois{
-    padding: 5px;
-    font-size: 20px;
-}
+
 .sobre_nos-imagem{
     width: 25%;
 }
@@ -55,6 +58,7 @@ body {
 .lojas{
     background-color: #a9a9a9;
 }
+
 .lojas-titulo{
 color: #3B0050;
 text-align: center;
