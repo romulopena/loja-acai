@@ -30,15 +30,20 @@ body {
     color:#FFFFFF;
     display: flex;
     justify-content: center;
+    padding: 50px;
     
 }
 
 .sobre_nos-titulo{
-    padding: 35px 0;
+    padding: 45px 0;
     text-align: center;
 }
 
 .sobre_nos-texto-um{
+    padding: 5px;
+    font-size: 20px;
+}
+.sobre_nos-texto-dois{
     padding: 5px;
     font-size: 20px;
 }
@@ -54,6 +59,7 @@ body {
 color: #3B0050;
 text-align: center;
 padding: 50px;
+font-size: 45px;
 }
 
 .lojas-todosestados-div{
