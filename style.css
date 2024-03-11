@@ -17,6 +17,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+    border-bottom: 2px solid #ffff00b2;
 }
 
 .cabecalho-imagem{
@@ -28,6 +29,13 @@ body {
     margin: 0 16px;
     font-size: 30px;
 }
+
+.cabecalho-lista-item:hover{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
+    font-weight: bold;
+}
 /* secao sobre nos*/
 .sobre_nos{
     background-image: linear-gradient(#3B0050,#3b00501f);
@@ -35,6 +43,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 50px;
+    border-bottom: 2px solid #ffff00b2;
 }
 
 .sobre_nos-div-conteudo{
@@ -95,4 +104,22 @@ font-size: 45px;
 .lojas-estado-icone:hover{
     width: 35px;
     padding: 5px 0;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid #ffff00b2;
+}
+
+.rodape-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffff00b2;
+}
+
+.rodape-imagem{
+    width: 100px;
+    filter: invert();
 }
